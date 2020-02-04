@@ -10,5 +10,5 @@ import UIKit
 
 // MARK: - StoryboardIdentifiable
 
-public extension UIViewController: StoryboardIdentifiable { }
+extension UIViewController: StoryboardIdentifiable { }
 #endif
