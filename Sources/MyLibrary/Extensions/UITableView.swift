@@ -5,6 +5,7 @@
 //  Created by Yura Voevodin on 04.02.2020.
 //
 
+#if !os(macOS)
 import UIKit
 
 extension UITableView {
@@ -30,3 +31,4 @@ extension UITableView {
         return cell
     }
 }
+#endif
