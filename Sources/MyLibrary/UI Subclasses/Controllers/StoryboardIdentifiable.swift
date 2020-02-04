@@ -8,11 +8,11 @@
 #if !os(macOS)
 import UIKit
 
-protocol StoryboardIdentifiable {
+public protocol StoryboardIdentifiable {
     static var storyboardIdentifier: String { get }
 }
 
-extension StoryboardIdentifiable where Self: UIViewController {
+public extension StoryboardIdentifiable where Self: UIViewController {
 
     static var storyboardIdentifier: String {
         return String(describing: self)

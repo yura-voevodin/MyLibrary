@@ -8,7 +8,7 @@
 #if !os(macOS)
 import UIKit
 
-extension UITableView {
+public extension UITableView {
 
     /// Get IndexPath of row with cell, that contains a view
     ///

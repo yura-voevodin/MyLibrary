@@ -8,9 +8,9 @@
 #if !os(macOS)
 import UIKit
 
-protocol NibLoadableView: class { }
+public protocol NibLoadableView: class { }
 
-extension NibLoadableView where Self: UIView {
+public extension NibLoadableView where Self: UIView {
 
     static var nibName: String {
         return String(describing: self)

@@ -8,7 +8,7 @@
 #if !os(macOS)
 import UIKit
 
-extension UICollectionView {
+public extension UICollectionView {
 
     /// Get IndexPath of item, that contains a view
     ///
